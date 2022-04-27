@@ -18,11 +18,14 @@ import cv2
 #--------------- APP DESIGN AND FORMATTING  ------------------------------
 
 st.title("Detect Aruco Markers in an Image")
-uploaded_file = st.file_uploader("Choose an image...")
 
+#Upload the file
+uploaded_file = st.file_uploader("Choose an image...")
+st.title("    ");
+st.title("    ");
+st.title("    ");
     
-#Open image for app testing if there is one
-  
+#Open image for app testing if there is an image uploaded
 if uploaded_file is not None:
     
     # Insert a slider on the left side to change values
