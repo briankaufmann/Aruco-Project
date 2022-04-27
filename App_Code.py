@@ -8,7 +8,7 @@ from PIL import Image
 
 #FOR IMAGE PROCESSING AND CV
 import ipywidgets as widgets
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 import numpy as np
 import cv2
 
